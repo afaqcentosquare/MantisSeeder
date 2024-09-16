@@ -10,9 +10,7 @@ access_ensure_global_level( ADMINISTRATOR );
 
 require_once( dirname( dirname( __FILE__ ) ) . '/core/Seeder.php' );
 
-html_page_top1();
 html_meta_redirect( plugin_page( 'config_page') );
-html_page_top2();
 
 $f_create_issues = gpc_isset( 'create_issues' );
 
@@ -27,5 +25,3 @@ if( $f_create_issues !== OFF ) {
 echo '<div class="success-msg">';
 echo lang_get( 'operation_successful' );
 echo '</div>';
-
-html_page_bottom();

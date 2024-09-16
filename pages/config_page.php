@@ -10,7 +10,6 @@ access_ensure_global_level( config_get( 'manage_plugin_threshold' ) );
 
 require_once( dirname( dirname( __FILE__ ) ) . '/core/Seeder.php' );
 
-html_page_top();
 ?>
 
 <br />
@@ -39,6 +38,3 @@ html_page_top();
 </fieldset>
 </form>
 </div>
-
-<?php
-html_page_bottom();
