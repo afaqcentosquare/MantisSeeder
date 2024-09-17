@@ -8,7 +8,7 @@
 
 require_once(dirname(__FILE__) . '/MantisPhpClient.php');
 
-define('MANTIS_SEEDER_ISSUES_COUNT', 10);
+define('MANTIS_SEEDER_ISSUES_COUNT', 100);
 
 /**
 	* Seeder
